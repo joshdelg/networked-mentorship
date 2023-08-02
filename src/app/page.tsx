@@ -1,9 +1,13 @@
 import Image from 'next/image'
 
+import Hero from '@/components/hero'
+import Steps from '@/components/steps'
+
 export default function Home() {
   return (
     <main>
-      <h1>Hello, world!</h1>
+      <Hero />
+      <Steps />
     </main>
   )
 }
